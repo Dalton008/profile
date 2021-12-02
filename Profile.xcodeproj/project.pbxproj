@@ -62,12 +62,11 @@
 		FAA21F432758C76800CF3DD3 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				FADE05FE2759175800D5BC88 /* Sources */,
 				FADE05F92758D30500D5BC88 /* Helper */,
 				FAA21F582758C7BE00CF3DD3 /* Presenter */,
 				FAA21F5A2758C7C700CF3DD3 /* View */,
 				FAA21F592758C7C300CF3DD3 /* Model */,
-				FAA21F442758C76800CF3DD3 /* AppDelegate.swift */,
-				FAA21F4D2758C76B00CF3DD3 /* Assets.xcassets */,
 				FAA21F522758C76B00CF3DD3 /* Info.plist */,
 			);
 			path = Profile;
@@ -106,6 +105,15 @@
 				FADE05FA2758D36600D5BC88 /* UIView+extension.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		FADE05FE2759175800D5BC88 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA21F442758C76800CF3DD3 /* AppDelegate.swift */,
+				FAA21F4D2758C76B00CF3DD3 /* Assets.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
