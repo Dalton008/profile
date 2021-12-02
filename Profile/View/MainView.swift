@@ -16,7 +16,7 @@ class MainView: UIView {
 		return label
 	}()
 	
-	private var imageView = UIImageView()
+	private lazy var imageView = UIImageView()
 	
 	private lazy var nameLabel: UILabel = {
 		let label = UILabel()
