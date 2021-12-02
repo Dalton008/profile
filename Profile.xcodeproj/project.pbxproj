@@ -84,10 +84,10 @@
 		FAA21F592758C7C300CF3DD3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FADE05FC2758F74400D5BC88 /* APIManager.swift */,
 				FADE05F12758CA1500D5BC88 /* APIManagerImpl.swift */,
 				FADE05F32758CA5200D5BC88 /* UserData.swift */,
 				FADE05F52758CFD400D5BC88 /* UserProfile.swift */,
-				FADE05FC2758F74400D5BC88 /* APIManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 		apiManager.onComplition = { user in
 			self.mainView.updateInterface(user: user)
 		}
-		apiManager.getCurrentUser()
+		apiManager.getNewUser()
 	}
 	
 	private func addMainView() {
@@ -35,6 +35,6 @@ class ViewController: UIViewController {
 	}
 	
 	@objc private func didTapRefresh() {
-		self.apiManager.getCurrentUser()
+		self.apiManager.getNewUser()
 	}
 }

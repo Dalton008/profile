@@ -12,7 +12,7 @@ class APIManagerImpl: APIManager {
 	
 	var onComplition: ((UserProfile) -> Void)?
 	
-	func getCurrentUser() {
+	func getNewUser() {
 		let urlString = "https://randomuser.me/api/"
 		perforfmRequest(withURL: urlString)
 	}

@@ -9,5 +9,5 @@
 import Foundation
 
 protocol APIManager {
-	func getCurrentUser()
+	func getNewUser()
 }
